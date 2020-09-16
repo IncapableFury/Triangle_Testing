@@ -31,9 +31,9 @@ class TestTriangles(unittest.TestCase):
                          'The sum of arbitrary two sides should be greater than the third side.')
 
     def testRightTriangle(self):
-        self.assertEqual(classifyTriangle(3, 4, 5), 'Right', '3,4,5 is a Right triangle')
-        self.assertEqual(classifyTriangle(4, 5, 3), 'Right', '3,4,5 is a Right triangle')
-        self.assertEqual(classifyTriangle(13, 12, 5), 'Right', '5,12,13 is a Right triangle')
+        self.assertEqual(classifyTriangle(3, 4, 5), 'Scalene+Right', '3,4,5 is a Right and Scalene triangle')
+        self.assertEqual(classifyTriangle(4, 5, 3), 'Scalene+Right', '3,4,5 is a Right and Scalene triangle')
+        self.assertEqual(classifyTriangle(13, 12, 5), 'Scalene+Right', '5,12,13 is a Right and Scalene triangle')
 
     def testIsoscelesTriangle(self):
         self.assertEqual(classifyTriangle(6, 6, 9), 'Isoceles', '6,6,9 is a Isosceles triangle')

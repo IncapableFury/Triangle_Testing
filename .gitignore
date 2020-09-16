@@ -2,5 +2,7 @@
 *.xml
 *.iml
 /__pycache__
+/submit
 *.tmp
 *.docx
+*.jpg

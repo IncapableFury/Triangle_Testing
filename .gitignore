@@ -2,7 +2,10 @@
 *.xml
 *.iml
 /__pycache__
+/htmlcov
 /submit
+/hw5
 *.tmp
 *.docx
 *.jpg
+.coverage
